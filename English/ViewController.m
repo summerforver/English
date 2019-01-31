@@ -7,16 +7,23 @@
 //
 
 #import "ViewController.h"
+#import "MainView.h"
+#define EWidth [UIScreen mainScreen].bounds.size.width
+#define EHeight [UIScreen mainScreen].bounds.size.height
 
 @interface ViewController ()
-
+@property (nonatomic, strong) MainView *mainView;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    self.mainView = [[MainView alloc] initWithFrame:CGRectMake(0, 0, EWidth, EHeight)];
+    
+    [self.view addSubview:self.mainView];
+
 }
 
 
