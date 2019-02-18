@@ -13,6 +13,7 @@
 		1B57407E21F95AB10085EEA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B57407D21F95AB10085EEA4 /* Assets.xcassets */; };
 		1B57408121F95AB10085EEA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B57407F21F95AB10085EEA4 /* LaunchScreen.storyboard */; };
 		1B57408421F95AB10085EEA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B57408321F95AB10085EEA4 /* main.m */; };
+		1B9A3B2A221A8D1800763DE2 /* CameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9A3B29221A8D1800763DE2 /* CameraView.m */; };
 		1BA2399221FE9A1600CF27DF /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA2399121FE9A1600CF27DF /* MainView.m */; };
 		41A22C773A3BDA2E66DA68E1 /* libPods-English.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B1D4C7CBC1A40333AAC4E30 /* libPods-English.a */; };
 /* End PBXBuildFile section */
@@ -28,6 +29,8 @@
 		1B57408021F95AB10085EEA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B57408221F95AB10085EEA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B57408321F95AB10085EEA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1B9A3B28221A8D1800763DE2 /* CameraView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CameraView.h; sourceTree = "<group>"; };
+		1B9A3B29221A8D1800763DE2 /* CameraView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraView.m; sourceTree = "<group>"; };
 		1BA2399021FE9A1600CF27DF /* MainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
 		1BA2399121FE9A1600CF27DF /* MainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
 		3B1D4C7CBC1A40333AAC4E30 /* libPods-English.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-English.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,6 +77,8 @@
 				1B57407821F95AA90085EEA4 /* ViewController.m */,
 				1BA2399021FE9A1600CF27DF /* MainView.h */,
 				1BA2399121FE9A1600CF27DF /* MainView.m */,
+				1B9A3B28221A8D1800763DE2 /* CameraView.h */,
+				1B9A3B29221A8D1800763DE2 /* CameraView.m */,
 				1B57407A21F95AA90085EEA4 /* Main.storyboard */,
 				1B57407D21F95AB10085EEA4 /* Assets.xcassets */,
 				1B57407F21F95AB10085EEA4 /* LaunchScreen.storyboard */,
@@ -194,6 +199,7 @@
 			files = (
 				1B57407921F95AA90085EEA4 /* ViewController.m in Sources */,
 				1BA2399221FE9A1600CF27DF /* MainView.m in Sources */,
+				1B9A3B2A221A8D1800763DE2 /* CameraView.m in Sources */,
 				1B57408421F95AB10085EEA4 /* main.m in Sources */,
 				1B57407621F95AA90085EEA4 /* AppDelegate.m in Sources */,
 			);
